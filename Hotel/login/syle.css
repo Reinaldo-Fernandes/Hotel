@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(255, 90, 95, 0.8); /* Deixa o header semi-transparente */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo h1 {
+    margin: 0;
+}
+
+.nav a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 160px);
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9); /* Deixa o fundo do formulário semi-transparente */
+    padding: 40px;
+    box-shadow: 0 0 10px rgb(252, 1, 1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-form .btn-primary {
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.login-gif {
+    margin-left: 5%;
+    margin-top: 80px;
+}
+
+.login-form .btn-primary:hover{
+    background-color: rgba(252, 1, 1, 0.384);
+}
+
+.login-gif img {
+    max-width: 100%; /* Ajusta o tamanho do GIF ao contêiner */
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
